@@ -11,11 +11,14 @@ We stop adding right before a duplicate element occurs in s[k].
 Return the longest length of a set s[k].
 
 ## Example
+```
 Input: nums = [5,4,0,3,1,6,2]
 Output: 4
-
+```
+```
 Input: nums = [0,1,2]
 Output: 1
+```
 
 ## Approach
 - Since it is like a graph like problem, not matter which value of index is true for looping, the cycle will continue until the loop is closed

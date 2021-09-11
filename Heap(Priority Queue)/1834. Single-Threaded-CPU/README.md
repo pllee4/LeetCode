@@ -12,6 +12,7 @@ The CPU can finish a task then start a new one instantly.
 Return the order in which the CPU will process the tasks.
 
 ## Example
+```
 Input: tasks = [[1,2],[2,4],[3,2],[4,1]]
 Output: [0,2,3,1]
 Explanation: The events go as follows: 
@@ -24,9 +25,11 @@ Explanation: The events go as follows:
 - At time = 5, the CPU finishes task 2 and starts processing task 3 as it is the shortest. Available tasks = {1}.
 - At time = 6, the CPU finishes task 3 and starts processing task 1. Available tasks = {}.
 - At time = 10, the CPU finishes task 1 and becomes idle.
-
+```
+```
 Input: tasks = [[7,10],[7,12],[7,5],[7,4],[7,2]]
 Output: [4,3,2,0,1]
+```
 
 ## Approach
 - First, the original tasks is pushed back for index

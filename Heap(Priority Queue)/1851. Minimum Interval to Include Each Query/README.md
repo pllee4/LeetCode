@@ -8,6 +8,7 @@ You are also given an integer array queries. The answer to the jth query is the 
 Return an array containing the answers to the queries.
 
 ## Example
+```
 Input: intervals = [[1,4],[2,4],[3,6],[4,4]], queries = [2,3,4,5]
 Output: [3,3,1,4]
 Explanation: The queries are processed as follows:
@@ -15,9 +16,11 @@ Explanation: The queries are processed as follows:
 - Query = 3: The interval [2,4] is the smallest interval containing 3. The answer is 4 - 2 + 1 = 3.
 - Query = 4: The interval [4,4] is the smallest interval containing 4. The answer is 4 - 4 + 1 = 1.
 - Query = 5: The interval [3,6] is the smallest interval containing 5. The answer is 6 - 3 + 1 = 4.
-
+```
+```
 Input: intervals = [[2,3],[2,5],[1,8],[20,25]], queries = [2,19,5,22]
 Output: [2,-1,4,6]
+```
 
 ## Approach
 - First, the queries are sort using priority queue
