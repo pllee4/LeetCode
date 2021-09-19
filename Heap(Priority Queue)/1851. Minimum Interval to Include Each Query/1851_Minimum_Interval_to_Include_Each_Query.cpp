@@ -13,7 +13,7 @@ class Solution {
     // arrange intervals in ascending order based on start time
     sort(intervals.begin(), intervals.end());
 
-    priority_queue<pi, vector<pi>, greater<> > pq;
+    priority_queue<pi, vector<pi>, greater<pi> > pq;
     int i = 0;
     while (!queries_pq.empty())
     {
