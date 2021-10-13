@@ -4,6 +4,8 @@
 Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
 
 ## Example
+![tree](https://user-images.githubusercontent.com/42335542/137128592-46d566d7-acfe-4114-9078-86cbb4735343.png)
+
 ```
 Input: root = [3,9,20,null,null,15,7]
 Output: [[3],[9,20],[15,7]]
