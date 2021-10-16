@@ -23,4 +23,6 @@ Output: [-1]
 - For this question, we can use recursive method.
 - First, we map the inorder value into its index, preorder value would be the main reference for creating new node.
 - For each node, we will build the subtree.
-- From the value of preorder, we will first get the position of inorder. The left of node would be based on the between begin and curInPos -1 while the right of node would be based on currInPos + 1 until the end.
+- From the value of preorder, we will first get the position of inorder. The left of node would be based on the valid value between begin and curInPos -1 while the right of node would be based on currInPos + 1 until the end.
+- If the begin > end or currPtrIndex is out of range, the node would be nullptr.
+- currPreIndex is passed as reference to ensure proper recursive looping is within the size, curInPos is maintained inside the function and its value is based on the mapping from curPreIndex. 
