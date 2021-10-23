@@ -8,13 +8,14 @@ The path sum of a path is the sum of the node's values in the path.
 Given the root of a binary tree, return the maximum path sum of any path.
 
 ## Example
+![example1](https://user-images.githubusercontent.com/42335542/138539971-5e8ee5d1-1d6c-42c5-99ee-05905c4f9a28.png)
 
 ```
 Input: root = [1,2,3]
 Output: 6
 Explanation: The optimal path is 2 -> 1 -> 3 with a path sum of 2 + 1 + 3 = 6.
 ```
-
+![example2](https://user-images.githubusercontent.com/42335542/138539995-ce7cc742-0e40-47a9-bbd5-11f44ef69207.png)
 
 ```
 Input: root = [-10,9,20,null,null,15,7]
