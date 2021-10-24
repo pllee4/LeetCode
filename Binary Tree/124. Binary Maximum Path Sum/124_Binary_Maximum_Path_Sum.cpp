@@ -13,7 +13,7 @@
 class Solution {
  public:
   int maxPathSum(TreeNode* root) {
-    if (root == NULL) return NULL;
+    if (root == NULL) return 0;
     if (root->left == NULL && root->right == NULL) return root->val;
     int max_sum{INT_MIN};
     helper(root, max_sum);
@@ -33,4 +33,4 @@ class Solution {
     max_sum = max(max_sum, chained_node_val);
     return max_node_val;
   }
-}
+};
